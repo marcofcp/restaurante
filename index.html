@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marco Pereira">
+    <meta name="description" content="Restaurante de comida tradicional portuguesa, com pratos variados e sem repetição diária, escolha o prato que melhor se adequa ao seu gosto">
+    <meta name="keywords" content="restaurante, comida tradicional portuguesa, pratos tradicionais portugueses, degustação de sabores">
+    <title>Sal e Grelha</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logotipo.jpg" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <!-- SweeperJS - CSS -->
+    <link rel="stylesheet" href="./assets/SwiperJS/swiper-bundle.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="container-fluid p-0 header-section">
+        <header class="d-flex">
+            <div class="left-header d-flex justify-content-center">
+                <a href="#">
+                    <div class="logo-box">
+                        <img src="assets/images/logotipo.jpg" alt="Logótipo Sal e Grelha" class="img-fluid">
+                    </div>
+                </a>
+            </div>
+            <div class="right-header d-flex justify-content-sm-around justify-content-start">
+                <a href="https://www.facebook.com" target="_blank">
+                    <div class="facbeook-box" id="facebook-box">
+                        <img src="assets/images/facebook.png" alt="Facebook" class="img-fluid">
+                    </div>
+                </a>
+                <nav id="header-nav">
+                    <ul class="m-0 d-flex gap-5">
+                        <li><a href="#menus" class="text-uppercase">Menus</a></li>
+                        <li><a href="#galeria" class="text-uppercase">Galeria</a></li>
+                        <li><a href="#testemunhos" class="text-uppercase">Testemunhos</a></li>
+                        <li><a href="#contactos" class="text-uppercase">Contactos</a></li>
+                        <li><a href="https://www.facebook.com" class="text-uppercase ementa-diaria">Ementa Diária</a></li>
+                    </ul>
+                </nav>
+                <img src="assets/images/circled-menu.png" alt="Open Menu" id="nav-button">
+            </div>
+        </header>
+    </div>
+
+    <!-- Hidden/Mobile Menu -->
+
+    <div class="hidden-menu d-flex justify-content-center flex-column" id="hidden-menu">
+        <div class="close-hidden-menu" id="close-hidden-menu">
+            <img src="assets/images/cancel.png" alt="Fechar Menu" class="img-fluid">
+        </div>
+        <div class="nav-menu-hidden m-auto">
+            <ul class="m-0 d-flex justify-content-center flex-column gap-4">
+                <li><a href="#menus" class="text-uppercase">Menus</a></li>
+                <li><a href="#galeria" class="text-uppercase">Galeria</a></li>
+                <li><a href="#testemunhos" class="text-uppercase">Testemunhos</a></li>
+                <li><a href="#contactos" class="text-uppercase">Contactos</a></li>
+                <li><a href="https://www.facebook.com" class="text-uppercase">Ementa Diária</a></li>
+            </ul>
+        </div>
+        <a href="https://www.facebook.com" target="_blank" class="facebook-hidden align-self-center">
+            <div>
+                <img src="assets/images/facebook.png" alt="Facebook" class="img-fluid">
+            </div>
+        </a>
+    </div>
+
+    <!-- Main Section -->
+
+    <section>
+        <div class="container">
+            <div class="row main-section">
+                <div class="col-lg-6 d-flex justify-content-center order-lg-0 order-1">
+                    <div class="main-img-box align-self-center py-lg-0 py-5">
+                        <img src="assets/images/main_image.png" alt="Churrasco tradicional" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-lg-start justify-content-center">
+                    <div class="right-main-box align-self-center">
+                        <h1 class="m-0 text-center pb-5">Flame & Sizzle: A Grill Gastronomy Experience</h1>
+                        <p class="m-0 text-justify">A grill restaurant, also known as a steakhouse or a barbeque joint,
+                            is a dining establishment that specializes in preparing and serving grilled or barbequed
+                            meats and other dishes. It offers a unique dining experience centered around the art of
+                            grilling, often showcasing an open kitchen or grill area where guests can see the skilled
+                            chefs in action.</p>
+                        <p class="m-0 text-justify pt-5">The menu at a grill restaurant revolves around high-quality
+                            meats, usually sourced from reputable suppliers and butchered in-house. Prime cuts of beef,
+                            such as ribeye, sirloin, or tenderloin, are often the stars of the menu. Additionally, there
+                            may be options like lamb chops, pork ribs, chicken, and seafood, offering a variety of
+                            choices for different preferences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Menus Variados -->
+
+    <section id="menus">
+        <div class="container-fluid section-menus-variados p-0">
+            <div class="titulo-menus-variados d-flex flex-column gap-4 py-5">
+                <h2 class="m-0 text-uppercase text-center">VARIADOS MENUS PARA TODOS OS GOSTOS</h2>
+                <p class="m-0 text-center text-white">A cozinha tradicional portuguesa está sempre bem presente</p>
+            </div>
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+
+                    <!-- Slide 1 -->
+                    <div class="swiper-slide">
+                        <div class="menu d-flex flex-column">
+                            <div class="menu-img">
+                                <img src="assets/images/francesinha.jpg" alt="Francesinha" class="img-fluid">
+                            </div>
+                                <p class="m-0 menu-descricao text-center text-uppercase">Francesinha</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="swiper-slide">
+                        <div class="menu d-flex flex-column">
+                            <div class="menu-img">
+                                <img src="assets/images/vitelaassada.jpg" alt="Francesinha" class="img-fluid">
+                            </div>
+                                <p class="m-0 menu-descricao text-center text-uppercase">Vitela Assada</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="swiper-slide">
+                        <div class="menu d-flex flex-column">
+                            <div class="menu-img">
+                                <img src="assets/images/polvo_lagareiro.jpg" alt="Francesinha" class="img-fluid">
+                            </div>
+                                <p class="m-0 menu-descricao text-center text-uppercase">Polvo à Lagareiro</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 4 -->
+                    <div class="swiper-slide">
+                        <div class="menu d-flex flex-column">
+                            <div class="menu-img">
+                                <img src="assets/images/arroz_de_marisco.jpg" alt="Francesinha" class="img-fluid">
+                            </div>
+                                <p class="m-0 menu-descricao text-center text-uppercase">Arroz de Marisco</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div class="swiper-slide">
+                        <div class="menu d-flex flex-column">
+                            <div class="menu-img">
+                                <img src="assets/images/arroz_de_cabidela.jpg" alt="Francesinha" class="img-fluid">
+                            </div>
+                                <p class="m-0 menu-descricao text-center text-uppercase">Arroz de Cabidela</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 6 -->
+                    <div class="swiper-slide">
+                        <div class="menu d-flex flex-column">
+                            <div class="menu-img">
+                                <img src="assets/images/frango-churrasco.jpg" alt="Francesinha" class="img-fluid">
+                            </div>
+                                <p class="m-0 menu-descricao text-center text-uppercase">Frango de Churrasco</p>
+                        </div>
+                    </div>
+
+                    <!-- Slide 7 -->
+                    <div class="swiper-slide">
+                        <div class="menu d-flex flex-column">
+                            <div class="menu-img">
+                                <img src="assets/images/picanha-assada.jpeg" alt="Francesinha" class="img-fluid">
+                            </div>
+                                <p class="m-0 menu-descricao text-center text-uppercase">Picanha Assada</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Galeria -->
+
+    <section class="section-galeria" id="galeria">
+        <div class="container-fluid">
+            <h2 class="m-0 text-center text-uppercase">Galeria</h2>
+        </div>
+        <div class="container">
+            <div class="galeria d-flex justify-content-center gap-sm-5 gap-3 flex-wrap">
+                <!-- Imagem 1 -->
+                <div class="galeria-imagem">
+                    <img src="assets/images/galeria_1.jpg" alt="Galeria - Imagem 1" class="img-fluid">
+                </div>
+                <!-- Imagem 2 -->
+                <div class="galeria-imagem">
+                    <img src="assets/images/galeria_2.jpg" alt="Galeria - Imagem 2" class="img-fluid">
+                </div>
+                <!-- Imagem 3 -->
+                <div class="galeria-imagem">
+                    <img src="assets/images/galeria_3.jpg" alt="Galeria - Imagem 3" class="img-fluid">
+                </div>
+                <!-- Imagem 4 -->
+                <div class="galeria-imagem">
+                    <img src="assets/images/galeria_4.jpg" alt="Galeria - Imagem 4" class="img-fluid">
+                </div>
+                <!-- Imagem 5 -->
+                <div class="galeria-imagem">
+                    <img src="assets/images/galeria_5.jpg" alt="Galeria - Imagem 5" class="img-fluid">
+                </div>
+                <!-- Imagem 6 -->
+                <div class="galeria-imagem">
+                    <img src="assets/images/galeria_6.jpg" alt="Galeria - Imagem 6" class="img-fluid">
+                </div>
+                <!-- Imagem 7 -->
+                <div class="galeria-imagem">
+                    <img src="assets/images/galeria_7.jpg" alt="Galeria - Imagem 7" class="img-fluid">
+                </div>
+                <!-- Imagem 8 -->
+                <div class="galeria-imagem">
+                    <img src="assets/images/galeria_8.jpg" alt="Galeria - Imagem 8" class="img-fluid">
+                </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- Section Testemunhos -->
+
+    <section class="section-testemunhos" id="testemunhos">
+        <div class="container-fluid">
+            <h2 class="m-0 text-center text-uppercase">Testemunhos</h2>
+        </div>
+        <div class="container testemunhos-container d-flex justify-content-center flex-wrap gap-sm-5 gap-3">
+
+           <!-- Testemunho 1 --> 
+            <div class="testemunho-box d-flex flex-column">
+                <p class="m-0 text-center text-white pb-5"><q>Lorem ipsum dolor sit amet consectetur. Egestas eu nulla adipiscing mattis pharetra faucibus adipiscing et. Et vestibulum lorem nibh semper massa et. Morbi condimentum nullam risus nisi turpis pellentesque urna. Purus enim dolor ligula purus ut volutpat. Pretium sit amet nisl leo. Egestas vitae ac elementum viverra nulla turpis.</q></p>
+               <p class="m-0 text-center"><span class="testemunho-nome">John Doe</span></p>
+            </div>
+
+           <!-- Testemunho 2 --> 
+            <div class="testemunho-box d-flex flex-column">
+                <p class="m-0 text-center text-white pb-5"><q>Lorem ipsum dolor sit amet consectetur. Egestas eu nulla adipiscing mattis pharetra faucibus adipiscing et. Et vestibulum lorem nibh semper massa et. Morbi condimentum nullam risus nisi turpis pellentesque urna. Purus enim dolor ligula purus ut volutpat. Pretium sit amet nisl leo. Egestas vitae ac elementum viverra nulla turpis.</q></p>
+               <p class="m-0 text-center"><span class="testemunho-nome">John Doe</span></p>
+            </div>
+
+           <!-- Testemunho 3 --> 
+            <div class="testemunho-box d-flex flex-column">
+                <p class="m-0 text-center text-white pb-5"><q>Lorem ipsum dolor sit amet consectetur. Egestas eu nulla adipiscing mattis pharetra faucibus adipiscing et. Et vestibulum lorem nibh semper massa et. Morbi condimentum nullam risus nisi turpis pellentesque urna. Purus enim dolor ligula purus ut volutpat. Pretium sit amet nisl leo. Egestas vitae ac elementum viverra nulla turpis.</q></p>
+               <p class="m-0 text-center"><span class="testemunho-nome">John Doe</span></p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="contactos">
+        <div class="container-fluid">
+            <h2 class="m-0 text-uppercase text-center">Contactos</h2>
+            <div class="row">
+                <div class="col-lg-4 d-flex justify-content-center pb-lg-0 pb-5">
+                    <div class="localizacao d-flex justify-content-center gap-3">
+                        <div class="localizacao-icon align-self-center d-flex justify-content-center">
+                            <img src="assets/images/address-50.png" alt="Endereço" class="img-fluid">
+                        </div>
+                        <div class="endereco align-self-center">
+                            <p class="m-0 text-center text-white">Sal e Grelha - Restaurante Avenida de São Miguel nº 25 6300 - 864 Guarda-Gare</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center  pb-lg-0 pb-5">
+                    <div class="telefone d-flex justify-content-center gap-3">
+                        <div class="telefone-icon align-self-center d-flex justify-content-center">
+                            <img src="assets/images/phone-50.png" alt="Telefone" class="img-fluid">
+                        </div>
+                        <div class="telefone align-self-center">
+                            <p class="m-0 text-center text-white">926 054 189</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center">
+                    <div class="facebook-footer d-flex justify-content-center gap-3 align-self-center">
+                        <div class="facebook-icon align-self-center d-flex justify-content-center">
+                            <a href="#"><img src="assets/images/facebook.png" alt="Telefone" class="img-fluid"></a>
+                        </div>
+                        <div class="facebook align-self-center">
+                            <p class="m-0 text-center"><a href="#" class="text-white">Sal e Grelha - Restaurante</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section>
+        <div class="container-fluid p-0">
+            <div class="rodape">
+                <p class="m-0 text-center">Copyright Sal e Grelha - Restaurante | Powered By - <a href="#">Marco Pereira</a></p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Botão Topo da Página --> 
+    <a href="#"><img src="assets/images/top-96.png" alt="Topo da página" class="top-page-button" id="top-page-button"></a>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
+    <!-- SweeperJS - Script -->
+    <script src="./assets/SwiperJS/swiper-bundle.min.js"></script>
+    <!-- ScrollReveal -->
+    <script src="./assets/ScrollReveal/scrollreveal.js"></script>
+    <!-- External Script -->
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
